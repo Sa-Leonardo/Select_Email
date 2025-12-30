@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+frontend/node_modules
+
+# Environment varibles
+.env
+
+# Database
+database.sqlite
+database.sqlite-journal
+
+# WhatsApp Session (Sensitive!)
+.wwebjs_auth
+.wwebjs_auth/
+
+# Build outputs
+dist
+frontend/dist
+
+# OS files
+.DS_Store
+Thumbs.db

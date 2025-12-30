@@ -1,0 +1,31 @@
+{
+  "name": "email-to-whatsapp",
+  "version": "1.0.0",
+  "description": "System to forward emails from a specific sender to WhatsApp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "node index.js",
+    "client": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.5.0",
+    "compression": "^1.8.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "imap": "^0.8.19",
+    "jsonwebtoken": "^9.0.3",
+    "mailparser": "^3.7.1",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.8.3",
+    "whatsapp-web.js": "^1.26.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
