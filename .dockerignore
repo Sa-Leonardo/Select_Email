@@ -1,0 +1,21 @@
+# System and Deps
+node_modules
+npm-debug.log
+.env
+
+# Local Data (IMPORTANT: Do not bake DB into image)
+database.sqlite
+.wwebjs_auth
+.wwebjs_cache
+session_data
+
+# Git
+.git
+.gitignore
+
+# IDE
+.vscode
+.idea
+
+# Build output
+frontend/dist
